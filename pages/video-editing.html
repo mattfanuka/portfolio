@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/videostyles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Video Editing</title>
+</head>
+<body>
+    <div class="background">
+        <div class="dot1 dot">
+        </div>
+        <div class="dot2 dot">
+        </div>
+        <div class="dot3 dot">
+        </div>
+    </div>
+    <div class="navbar">
+        <a href="../index.html" style="text-decoration: none;">/* Home */</a>
+        <div class="dropbtn">
+            <h3><strong>Featured Work</strong></h3>
+            <div class="dropdown">
+                <a id="elearning" href="./elearning-design.html">eLearning Design</a>
+                <a id="webdev" href="./web-development.html">Web Development</a>
+                <a id="video"><strong>Video Editing</strong></a>
+            </div>
+        </div>    
+        <a>Blog</a>
+        <a>Contact</a>
+    </div>
+    <main>
+        <div class="intro">
+            <p>Here are some samples of my video editing and 2D animation work. 
+                <br> Click each thumbnail to check out the video!</p>
+        </div>
+        <div class="samples-container">
+            <div class="whole-video">  
+                <h5 class="video-title">Food Reel</h5>    
+                <div class="video-wrapper">
+                    <video id="tacos" width='480' height='853'>
+                        <source src="../video/VID_20250613_125142_950.mp4" type="video/mp4">
+                        Video format not supported by browser.
+                    </video>
+                    <span class="close-btn">&times;</span>
+                </div>
+            </div>
+            <div class="whole-video">
+                <h5 class="video-title">Vacation Reel</h5>
+                <div class="video-wrapper">
+                    <video id="trip" width='480' height='853'>
+                        <source src="../video/i_love_you.mp4" type="video/mp4">
+                        Video format not supported by browser.
+                    </video>
+                    <span class="close-btn">&times;</span>
+                </div>
+            </div>
+            <div class="whole-video">
+                <h5 class="video-title">2D Animation</h5>
+                <div class="video-wrapper">
+                    <video id="planet" width='1080' height='720'>
+                        <source src="../video/planet_world.mp4" type="video/mp4">
+                        Video format not supported by browser.
+                    </video>
+                    <span class="close-btn">&times;</span>
+                </div>
+            </div>    
+        </div>
+    </main>
+</body>
+<script src='../js/videoscript.js'></script>
+</html>
